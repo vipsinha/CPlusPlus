@@ -11,6 +11,9 @@ vector<int> parseInts(string str) {
     vector<int> vec;
 
     while (ss >> a){
+        // Provide proper checks here for "a" like if empty
+        // Also strip down symbols like !, ., ?, etc.
+        // Finally push it.
         vec.push_back(a);
 
         if (ss.peek() == ','){
