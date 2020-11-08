@@ -14,7 +14,7 @@ using namespace std;
 // - Friend defination should be outside the class without friend keyword
 // - Friend function can be declared in any number of classes
 // - They have object as arguments, so that it can access private variables
-// -  They are non members, hence . operator is not required
+// - They are non members, hence . operator is not required
 
 // This declaration is required, then only class B can be seen in class A
 class classB;

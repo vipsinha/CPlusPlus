@@ -112,9 +112,9 @@ void student :: getData(void)
     // endl is used for new line
     // ends is used for space
     // endl and ends are manipulator operators
-    // setw(), setfill(), setprecision() and setioflags() arecalled manipulator functions
+    // setw(), setfill(), setprecision() and setioflags() are called manipulator functions
     // manipulators need to include iomanip.h
-    // /n also called back slash character and occupies 1 byte memory
+    // \n also called back slash character and occupies 1 byte memory
     cout << "Enter the student ID, name and marks" << endl;
     cin >> studentID >> studentName >> marksObtained;
 }
