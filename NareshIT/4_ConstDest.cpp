@@ -21,7 +21,7 @@ class constDest
         // constructor
         // should defined in public area
         // used to initilize the private values
-        // return type should be anything. It does not return anything
+        // It does not return anything
         // Arguments or parameters are allowed
         // Hence, constructor can be overloaded
         // constructors does not take part in inhertiance

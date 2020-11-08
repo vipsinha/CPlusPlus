@@ -7,10 +7,10 @@
 // - It provides the feature of reusability and extensibility
 // - When a class is base and derived class, then that class is called intermidiate class
 // - class derivedclass : pub/pri/pro baseclass()
-// : is inheritance operator
-// pub/pri/pro - visibility mode
+// - : is inheritance operator
+// - pub/pri/pro - visibility mode
 // - derived class size is sum of base class and derived call memebers
-// - Emply class will have size of 1 byte
+// - Empty class will have size of 1 byte
 // - if class is derived as public, then the private, public and protected 
 //              will become not available, public and protected
 // - if class is derived as private, then the private, public and protected 
@@ -18,6 +18,7 @@
 // - When data member is protected, then the data is accessed in base class and immidiately derived class
 // - Above statement also depend on the visibility mode
 // - Types of inheritance: Single level, Multi level, Multiple, Hybrid/ Multipath, Hierarhical
+// - https://www.geeksforgeeks.org/inheritance-in-c/
 
 #include<iostream>
 using namespace std;
