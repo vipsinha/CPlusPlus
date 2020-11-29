@@ -14,7 +14,7 @@ int main() {
     //cout << "Input the array size and query" << endl;
     cin >> n >> q;
     
-    vector <vector<int> > outerVector;
+    vector < vector<int> > outerVector;
     for(index=0;index<n;index++){
         vector<int> innerVector;
         int k;
